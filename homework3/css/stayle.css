@@ -1,13 +1,12 @@
-﻿body {
-    margin:0; 
-}
+﻿*{margin: 0;
+padding: 0;}
+
 /* общий блок сайта для минимализации заполнения стилями body */
 .fon {
 	display: block;
     width: 100%;
     height: 100%;
-    background-color: #f9f9f9;
-	position: absolute;
+    background-color: #f9f9f9;	
 }
 /* общий блок сайта для минимализации заполнения стилями body */
 /* белый фон страницы сайта */
@@ -22,11 +21,11 @@
 /* белый фон страницы сайта */
 /* заглавие магазина */
 .shapka {
-	display: block;
-	width: 700px;
+    display: block;
+    width: 700px;
     height: 90px;
-	padding-top: 10px;
-    padding-left: 5%;
+    padding-top: 60px;
+    padding-left: 10%;
     padding-bottom: 30px;
 }
 
@@ -39,55 +38,70 @@
 /* верхнее меню */
 .osnovnaia_navigacia {
 	display: block;
-	 width: 90%;
+	width: 90%;
     height: 41px;
 	background-color: #535252;
 	margin: auto;
 }
-.osnovnaia_navigacia ul.hr {
-    position: relative;
-    left: -39px;
-}
+
 .osnovnaia_navigacia ul.hr li {
     display: inline-block; /* Отображать как строчный элемент */
-   margin-right: 20px;
+    margin-right: 20px;
 }
-/*.osnovnaia_navigacia ul.hr li  a{
-	color: #ffffff;
-}*/
-.osnovnaia_navigacia a {
+
+.osnovnaia_navigacia .ne_activ a:link{
    color: #ffffff;
    font-size: 20px;
    display: block; /* Блочный элемент */
    padding: 9px 36px; /* Поля вокруг текста */
    text-decoration: none; /* Убираем подчёркивание */
 }
-.osnovnaia_navigacia ul.hr li  a:hover {
-	background: #333;
-}
-.osnovnaia_navigacia  a:active {
-   color: #ffffff;
-   font-size: 20px;
-   background: #333;
-}
-.osnovnaia_navigacia  a.aktiv {
-   color: #ffffff;
-   font-size: 20px;
+.osnovnaia_navigacia li.ne_activ  a:hover {
    background: #333;
    border-right: 1px solid rgba(249, 247, 247, 0.57);
    border-left: 1px  solid rgba(249, 247, 247, 0.57);
 }
+.osnovnaia_navigacia a:visited {
+   color: #ffffff;
+   font-size: 20px;
+   display: block; /* Блочный элемент */
+   padding: 9px 36px; /* Поля вокруг текста */
+   text-decoration: none; /* Убираем подчёркивание */
+   }
+.osnovnaia_navigacia a:active {
+   color: #ffffff;
+   font-size: 20px;
+   display: block; /* Блочный элемент */
+   padding: 9px 36px; /* Поля вокруг текста */
+   text-decoration: none; /* Убираем подчёркивание */
+}
+.osnovnaia_navigacia .activ  a:link {
+   color: #ffffff;
+   font-size: 20px;
+   display: block; /* Блочный элемент */
+   padding: 9px 36px; /* Поля вокруг текста */
+   text-decoration: none; /* Убираем подчёркивание */
+}
+.osnovnaia_navigacia .activ  a:hover {
+   color: #ffffff;
+   font-size: 20px;
+   display: block; /* Блочный элемент */
+   padding: 9px 36px; /* Поля вокруг текста */
+   text-decoration: none; /* Убираем подчёркивание */
+}
 /* верхнее меню */
 /* боковое меню */
 .bokovaia_navigacia {
-	width: 350px;
+	
+    margin-left: 5%;
 }
 .nav {
-	position: absolute;
-    padding-left: 4%;
-	margin: 3px 0;
+
+	margin: 30px 0;
     list-style-type: none;
-    width: 22%;
+    width: 26%;
+    float: left;
+   
 }
 .nav li {
 	background: #ffffff; /* Цвет фона */
@@ -99,94 +113,54 @@
 .nav li.pervaia_stroka{
 	background: #ffffff; /* Цвет фона */
     border-left: 10px;
-    border-top: 1px solid rgba(158, 158, 158, 0.35);
-    border-right: 1px solid rgba(158, 158, 158, 0.35);
-    border-left: 1px solid rgba(158, 158, 158, 0.35);
-}
-.nav li.aktiv_stroka{
-	background-color: rgba(204, 204, 204, 0.15);
+    border-top:  1px solid rgba(158, 158, 158, 0.35);
+	border-left: 1px solid rgba(158, 158, 158, 0.35);
 }
 .nav li a {
 	color: rgb(167, 161, 161);
     background-color: #ffffff;
-    margin-left: 10px;
+   
     padding: 10px;
     text-decoration: none;
   
-  border-left: 5px;
-  display: block;
+    border-left: 5px;
+    display: block;
 }
 .nav  li a:hover {
-	margin-left: 18px;
-}
-.nav li a.aktiv_menu {
 	color: #000000;
-	margin-left: 18px;
+	padding-left: 18px;
 	background-color: rgb(248, 248, 248);
 }
-
 /* боковое меню */
 /* картинка над текстом */
- .foto {
-          width: 70vw;
-    position: relative;
-    right: 5%;
-    left: 20%;
-	margin-top: 38px;
+.blok_kontent {
+	width: 70%;
+    float: left;
    
+} 
+.foto{
+	width: 100%;
+	margin: 25px 20px;
 }
-        }
-        .foto > div {
-          width: 100vw;
-         margin-left: -100%;
-        }
-        .foto img {
-          display: block;
-          max-width: 70%;
-          height: auto;
-          margin: 0 auto;
-        }
-      
+
+
 /* картинка над текстом */
 /* текст */
-@media (max-width:768px){
 .blok_kontent p {
-    width: 56%;
-    position: relative;
-    left: 37%;
-}
-}
-@media (max-width:1440px){
-.blok_kontent p {
-    width: 50%;
-    position: relative;
-    left: 37%;
-}
-}
-@media (max-width:1600px){
-.blok_kontent p {
-    width: 40%;
-    position: relative;
-    left: 47%;
-}
-}
-@media (max-width:1920px){
-.blok_kontent p {
-    width: 43%;
-    position: relative;
-    left: 43%;
-}
+	width: 84%;
+    margin: 0px 0px 0px 50px;
 }
 /* текст */
+.clear {
+    clear: both;
+}
 /* футер */
 .footer {
+	padding-top: 80px;
 	padding-bottom: 80px;
+   
 }
-.footer_nav span {
-	position: absolute;
-    right: 17%;
-    margin-top: -41px;
-}
+
 /* футер меню */
 .footer_nav {
 	display: block;
@@ -195,10 +169,15 @@
     margin: auto;
     background-color: #e1e1e1;
 }
+.footer_nav span {
+	margin: 10px 30px;
+	float: right;
+}
 
-.nav_footer {
-	position: relative;
-    left: -39px;
+
+
+.nav_footer{
+	float: left;
 }
 .nav_footer li {
     display: inline-block;
