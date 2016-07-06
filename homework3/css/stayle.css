@@ -47,6 +47,7 @@ padding: 0;}
 .osnovnaia_navigacia ul.hr li {
     display: inline-block; /* Отображать как строчный элемент */
     margin-right: 20px;
+	
 }
 
 .osnovnaia_navigacia .ne_activ a:link{
@@ -55,8 +56,15 @@ padding: 0;}
    display: block; /* Блочный элемент */
    padding: 9px 36px; /* Поля вокруг текста */
    text-decoration: none; /* Убираем подчёркивание */
+    border-right: 1px solid rgb(83, 82, 82);
+    border-left: 1px solid rgb(83, 82, 82);
 }
 .osnovnaia_navigacia li.ne_activ  a:hover {
+   color: #ffffff;
+   font-size: 20px;
+   display: block; /* Блочный элемент */
+   padding: 9px 36px; /* Поля вокруг текста */
+   text-decoration: none; /* Убираем подчёркивание */
    background: #333;
    border-right: 1px solid rgba(249, 247, 247, 0.57);
    border-left: 1px  solid rgba(249, 247, 247, 0.57);
@@ -67,6 +75,8 @@ padding: 0;}
    display: block; /* Блочный элемент */
    padding: 9px 36px; /* Поля вокруг текста */
    text-decoration: none; /* Убираем подчёркивание */
+    border-right: 1px #535252;
+   border-left: 1px  #535252;
    }
 .osnovnaia_navigacia a:active {
    color: #ffffff;
@@ -74,6 +84,8 @@ padding: 0;}
    display: block; /* Блочный элемент */
    padding: 9px 36px; /* Поля вокруг текста */
    text-decoration: none; /* Убираем подчёркивание */
+    border-right: 1px #535252;
+   border-left: 1px  #535252;
 }
 .osnovnaia_navigacia .activ  a:link {
    color: #ffffff;
@@ -81,6 +93,8 @@ padding: 0;}
    display: block; /* Блочный элемент */
    padding: 9px 36px; /* Поля вокруг текста */
    text-decoration: none; /* Убираем подчёркивание */
+    border-right: 1px #535252;
+   border-left: 1px  #535252;
 }
 .osnovnaia_navigacia .activ  a:hover {
    color: #ffffff;
@@ -197,7 +211,7 @@ ul.nav_footer li  a{
 }
 ul.nav_footer  a.aktiv  {
 	color: #000000;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .nav_footer a:visited {
 	color: #000000;
