@@ -1,0 +1,264 @@
+﻿*{margin: 0; 
+padding: 0;}
+h1,h2,h3,h4,h5,h6,p,a{
+	font-family: tahoma;
+}
+
+.clear {
+    clear: both;
+}
+.shapka{
+	display: block;
+	width: 100%;
+	height: 176px;
+    background: url(img/BECGRAUND_shapka.png) repeat;	
+}
+.shapka_okean{
+	display: block;
+	width: 100%;
+	height: 238px;
+    background: url(img/BECGRAUND_shapka_okean.png) repeat; 
+}
+.osnova_saita_pod_shapkoi{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-top: -16px;
+    background: linear-gradient(to top, #0c739f, #1091b0);
+}
+.shapka_logo {
+	display: block;
+	width: 1000px;
+	height: 175px;
+	background-color: #ffffff;
+	position: relative;
+    top: 1px;
+	margin:0 auto; /*выравняла по центру */
+	box-shadow: 0 15px 15px;
+}
+.logo {
+	width:324px;
+	height:175px;
+	background: url(img/logo.png);
+}
+.contakt p{
+	width: 200px;
+	color: #69bcd6;
+	position: relative;
+    top: -170px;
+    left: 830px;
+	font-size: 10pt;
+	padding: 2px;
+}
+.contakt p.zaglav{
+	padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 9pt;
+}
+.container{
+	position: relative;
+	top: -155px;
+    left: 620px;
+}
+
+.container img{
+	width:50px;
+}
+.container a{
+	font-size: 6pt;
+	color: #69bcd6;
+	font-weight: bold;
+}
+.container ul.maps li.icon a span {
+	text-decoration: underline;
+}
+.container ul.maps li.icon a:hover{
+	font-size: 6pt;
+	color: #69bcd6;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.container ul.maps {
+	margin: 0;
+	padding:0;
+}
+.container ul.maps li.icon{
+	width: 60px;
+	margin: 0;
+	padding:0;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	font-size: 8pt;
+}
+.container ul.maps li.icon span{
+	display: block;
+}
+
+.shapka_baner {
+	display: block;
+	width: 1000px;
+	height: 238px;
+	background: url(img/baner1.png) repeat;
+	position: relative;
+    margin:0 auto; /*выравняла по центру */ 
+    box-shadow: 0 15px 15px;
+	background-size: 100% auto;
+}
+.navi {
+	display: block;
+	width: 1000px;
+	height: 33px;
+	background: url(img/menu.png) repeat;
+	position: relative;
+    margin:16px auto; /*выравняла по центру */ 
+	font-size: 14px;
+}
+
+nav {
+	padding: 0 20px;
+}
+
+ul: after {
+	display: block;
+	content: '';
+	clear: both;
+	float: none;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul > li {
+    float: left;
+    position: relative;
+    margin: 0 30px;
+}
+ul > li > a {
+    display: block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.drop-nav{
+	display: none;
+	position: absolute;
+    width: 155px;
+    left: -10px;
+    border-top: 3px solid transparent;
+	box-shadow: 0px 5px 5px 0px;
+	z-index: 1; 
+}
+
+.drop-nav > li {
+	display: block;
+	margin: 0 0px;
+}
+.drop-nav > li  > a{
+	width: 95px;
+	display: block;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
+}
+.drop-nav > li  > a:hover {
+	text-decoration: none;
+}
+ul > li:hover > .drop-nav{
+	display: block;
+}
+.drop-nav1::after{
+	content: "";
+	position: absolute;
+	border: 4px solid;
+	border-color: #ffffff transparent transparent transparent;
+	top: 12px;
+	right: -10px;
+}
+.bloki_info{
+    width: 1000px;
+	margin:0 auto; /*выравняла по центру */ 
+	background-color: #ffffff;
+	box-shadow: 0 5px 15px;
+}
+.bloki_v_colonkah{
+	width: 1000px;    
+	position: relative;
+}
+
+.info {
+	width: 22%;
+    height: 100%;
+    vertical-align: top;
+    float: left;
+	background-color: #edeef0;
+    margin-top: -16px;
+	padding-top: 6px;
+    padding-bottom: 310px;
+}
+
+.info  p{
+	width: 180px;
+    height: 100%; 
+	background-color: #edeef0;     
+	margin: 0px 20px 0px 15px;
+	font-size: 14px;
+    line-height: 1.7;
+	color: #49494e;
+}
+.info  h2{	    
+	margin: 0px 20px 0px 40px;
+    font-size: 18px;
+    color: #49494e;
+}
+.kontent{
+	width: 56%;
+    height: 100%;
+    position: absolute;
+	display: inline-block;
+	vertical-align: top;    
+	left: 25%; 
+	float: left; 
+}
+.kontent p{
+	width: 500px;
+    height: 100%;
+}
+.novosti{
+	width: 22%;
+    height: 100%;
+	display: inline-block;
+	vertical-align: top;
+    float: right;
+	background-color: #edeef0; 
+	margin-top: -16px;
+    left: 75%;
+}
+.novosti p{
+	width: 180px;
+	background-color: #edeef0; 
+    margin: 5px 0px 12px 20px;
+    font-size: 14px;
+    line-height: 1.7;
+	color: #49494e;
+}
+    
+.novosti h2{
+	margin: 5px 20px 0px 65px;
+    font-size: 18px;
+	color: #49494e;
+}
+
+.copirait, .copirait p {
+	margin:14px 30%;
+	color: #ffffff;
+	font-size: 12px;
+}
