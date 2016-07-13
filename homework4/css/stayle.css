@@ -11,13 +11,13 @@ h1,h2,h3,h4,h5,h6,p,a{
 	display: block;
 	width: 100%;
 	height: 176px;
-    background: url(/img/BECGRAUND_shapka.png) repeat;	
+    background: url(../img/BECGRAUND_shapka.png) repeat;	
 }
 .shapka_okean{
 	display: block;
 	width: 100%;
 	height: 238px;
-    background: url(/img/BECGRAUND_shapka_okean.png) repeat; 
+    background: url(../img/BECGRAUND_shapka_okean.png) repeat; 
 }
 .osnova_saita_pod_shapkoi{
 	display: block;
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6,p,a{
 .logo {
 	width:324px;
 	height:175px;
-	background: url(/img/logo.png);
+	background: url(../img/logo.png);
 }
 .contakt p{
 	width: 200px;
@@ -100,7 +100,7 @@ h1,h2,h3,h4,h5,h6,p,a{
 	display: block;
 	width: 1000px;
 	height: 238px;
-	background: url(/img/baner1.png) repeat;
+	background: url(../img/baner1.png) repeat;
 	position: relative;
     margin:0 auto; /*выравняла по центру */ 
     box-shadow: 0 15px 15px;
@@ -110,7 +110,7 @@ h1,h2,h3,h4,h5,h6,p,a{
 	display: block;
 	width: 1000px;
 	height: 33px;
-	background: url(/img/menu.png) repeat;
+	background: url(../img/menu.png) repeat;
 	position: relative;
     margin:16px auto; /*выравняла по центру */ 
 	font-size: 14px;
@@ -163,7 +163,7 @@ ul > li > a {
 	display: block;
 	padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
+    padding-left: 16px;
     padding-right: 50px;
     color: white;
     background-color: #333333;
@@ -171,6 +171,7 @@ ul > li > a {
 }
 .drop-nav > li  > a:hover {
 	text-decoration: none;
+	background-color: #9e9e9e;
 }
 ul > li:hover > .drop-nav{
 	display: block;
@@ -180,8 +181,8 @@ ul > li:hover > .drop-nav{
 	position: absolute;
 	border: 4px solid;
 	border-color: #ffffff transparent transparent transparent;
-	top: 12px;
-	right: -10px;
+	top: 13px;
+    right: -8px;
 }
 .bloki_info{
     width: 1000px;
@@ -190,36 +191,43 @@ ul > li:hover > .drop-nav{
 	box-shadow: 0 5px 15px;
 }
 .bloki_v_colonkah{
-	width: 1000px;    
+	width: 1001px;    
 	position: relative;
+	background: url(../img/fon-roditelia.png);
+	float: left;
+	    margin-top: -16px;
 }
 
 .info {
-	width: 22%;
+	/*width: 22%;
     height: 100%;
     vertical-align: top;
     float: left;
 	background-color: #edeef0;
     margin-top: -16px;
 	padding-top: 6px;
-    padding-bottom: 310px;
+    padding-bottom: 310px;*/
+	width: 209px;
+
+float: left;
+
 }
 
 .info  p{
-	width: 180px;
-    height: 100%; 
-	background-color: #edeef0;     
-	margin: 0px 20px 0px 15px;
-	font-size: 14px;
-    line-height: 1.7;
-	color: #49494e;
+	 width: 180px;
+     height: 100%; 
+	 background-color: #edeef0;     
+	 margin: 0px 20px 0px 15px;
+	 font-size: 14px;
+     line-height: 1.7;
+	 color: #49494e;
 }
 .info  h2{	    
-	margin: 0px 20px 0px 40px;
-    font-size: 18px;
-    color: #49494e;
+	 margin: 0px 20px 0px 40px;
+     font-size: 18px;
+     color: #49494e;
 }
-.kontent{
+/*.kontent{
 	width: 56%;
     height: 100%;
     position: absolute;
@@ -227,20 +235,30 @@ ul > li:hover > .drop-nav{
 	vertical-align: top;    
 	left: 25%; 
 	float: left; 
-}
+}*/
 .kontent p{
-	width: 500px;
-    height: 100%;
+	 width: 500px;
+     height: 100%;
 }
+.kontent {
+
+     width: 583px;
+
+     float: left;
+}
+
 .novosti{
-	width: 22%;
+	/* width: 22%;
     height: 100%;
 	display: inline-block;
 	vertical-align: top;
     float: right;
 	background-color: #edeef0; 
 	margin-top: -16px;
-    left: 75%;
+   left: 75%;*/
+	 width: 209px;
+
+     float: left
 }
 .novosti p{
 	width: 180px;
