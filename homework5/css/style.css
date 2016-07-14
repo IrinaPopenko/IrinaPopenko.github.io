@@ -1,0 +1,259 @@
+*{margin: 0; 
+padding: 0;}
+@font-face {
+
+     font-family: helveticaneuecyr-light; /* имя шрифта для CSS правил */
+
+     src: local("helveticaneuecyr-light"), /* проверяем наличие шрифта в ОС пользователя */
+
+     url(helveticaneuecyr-light.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+
+  }
+
+body {
+	 font-family: helveticaneuecyr-light, arial;
+     font-weight: normal;
+	 background-color: #d4e5ec;
+   
+}
+.container{
+	 width:1215px;
+	 height: 1028px;
+	 margin:0 auto;
+}
+.nav {
+	 background-color: #074b88;
+	 width:1215px;
+	 height: 36px;
+}
+
+.menu {
+	 position: relative;
+     left: 460px;
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     border: 2px;
+     width: 450px;
+	 font-size: 14px;
+     text-align: center;
+}
+.menu2 {
+	 position: relative;
+     left: 830px;
+	 top: -95px;
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     border: 2px;
+     width: 450px;
+	 font-size: 14px;
+     text-align: center;
+   
+}
+hr.polosa-menu{
+	 position: relative;
+	 top: -34px;
+     left: 870px;
+	 height: 30px;
+     width: 0px;
+     border-color: #4eabda;
+   	
+}
+.flag {
+     position: relative;
+	 display: inline-block;
+	 padding-bottom: 22px;
+     text-decoration: none;
+     width: 29px;
+     height: 12px;
+     top: -63px;
+     left: 885px;
+	 background: url(../img/flag.png) no-repeat;
+}
+.menu  a {
+     display: inline-block;
+	 text-decoration: none;
+	 height: 26px;
+     padding: 10px 10px 0px 10px;
+	 color: #4eabda;
+}
+.menu2 a {
+	 text-decoration: none;
+	 color: #ffffff;
+	 padding: 10px 10px 10px 10px;
+}
+li {
+	 height: 36px;
+	 display: inline;
+}
+.menu2 li a span, .flag{
+	 text-decoration: underline;
+}
+.menu li a:hover {
+     color: #ffffff;
+	 background-color: #4eabda;
+	
+}
+
+.menu2 a:hover {
+	 outline: none;
+	 background: rgb(80,175,220) linear-gradient(rgb(80,175,220), rgb(46,122,196));
+     box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(46,122,196,-4);
+     transition: box-shadow .2s, border-color .2s;
+     box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(46,122,196,-4);
+}
+h1 {
+	 margin-left: 190px;
+	 padding-top: 20px;
+     font-size: 20px;
+}
+
+ 
+.fon {
+	 width:1215px;
+	 height: 1028px;
+	 background: url(../img/bacgraund.png) no-repeat;
+}
+.forma{
+	 padding-top: 200px;
+}
+
+.forma-fon{
+	 background: rgba(0, 0, 0, 0.6);
+     color: #fff; /* Цвет текста */
+     margin: 0 auto;
+     position: relative;
+     width: 500px; /* Ширина слоя */
+	 height: 613px;
+   
+}
+hr.polosa-forma{
+	 width: 498px;
+	 margin-top: 20px;
+	 background: solid transparent;
+	 height: 2px;
+    
+}
+.fb{
+	 position: relative;
+     left: 25.5%;
+	 margin-top: 30px;
+/*	background: url(../img/f-text.png) no-repeat;*/
+   
+}
+.fb:before {
+    content: url(../img/f1.png);
+	
+}
+.fb:after {
+        content: url(../img/strela.png);
+    margin-left: -4px;
+    
+}
+
+.text {
+     width: 225px;
+     height: 30px;
+     margin-top: 15px;
+	 background: #000000;
+	 border: 1px solid #000000;
+	 border-bottom: 1px solid grey;
+	 padding-left: 15px;
+ }
+ #contactform .text:focus {
+     background: #1b5288; /* Цвет фона */
+     border: 1px solid #4682B4;
+	 color: #ffffff;
+	 font-weight: bold;
+     -webkit-box-shadow: 0px 0px 19px 3px rgba(132,182,235,1);
+     -moz-box-shadow: 0px 0px 19px 3px rgba(132,182,235,1);
+     box-shadow: 0px 0px 19px 3px rgba(132,182,235,1);
+
+     cursor: pointer;
+ }
+ #submit {
+	 position:absolute;
+	 top: 345px;
+     left: 55px;
+	 width: 150px;
+     height: 35px;
+     background: -moz-linear-gradient(#67c6e6, #2e7ac4);
+     background: -webkit-gradient(linear, 0 0, 0 100%, from(#67c6e6), to(#2e7ac4));
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#67c6e6', endColorstr='#2e7ac4');
+     padding: 0px 0px;
+     color: #ffffff;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+     border: 1px solid #2e7ac4;
+ }
+ .checkbox {
+	 margin-top: 19px;
+ }
+ form span {
+	 font-size: 13px;
+     color: #b3b2b2;
+	 top: -2px;
+     position: relative;
+}
+ 
+ form{
+     display: block;
+	 width: 240px;
+	 position: relative;
+    /*top: 20%;
+    left: 12%;*/
+	 margin: 0 auto;
+     margin-top: 50px;
+     border: 0;
+
+}	
+ p.By {
+	 font-size: 10px;
+     color: #b3b2b2;
+	 margin-top: 130px;
+	 width: 290px;
+     margin-left: 110px;
+    
+     text-align: center;
+}
+
+.line {
+	 height: 2px;
+     background-color: #000000;
+     width: 105px;
+     border: 1px solid grey;
+     border-bottom: 1px #000000;
+     position: absolute;
+     left: 130px;
+	 top: 30px;
+	
+}
+.line1{
+	 height:2px;
+	 background-color:#000000;
+	 width: 105px;
+     border: 1px solid grey;
+	 border-bottom: 1px #000000;
+	 position: absolute;
+     left: 265px;
+	 top: 30px;
+}
+.ou-conteiner{
+	 width: 600px;
+     position: relative;
+   
+}
+.ou-conteiner .ou {
+	 
+	 position: absolute;
+     left: 243px;
+     top: 25px;
+	 font-size: 13px;
+     color: #b3b2b2;
+}
+
+
+
+
