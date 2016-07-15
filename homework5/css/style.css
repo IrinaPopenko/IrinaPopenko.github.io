@@ -17,71 +17,88 @@ body {
    
 }
 .container{
-	 width:1215px;
+	
 	 height: 1028px;
 	 margin:0 auto;
 }
 .nav {
 	 background-color: #074b88;
-	 width:1215px;
+
 	 height: 36px;
 }
 
 .menu {
-	 position: relative;
-     left: 460px;
-     margin: 0;
-     padding: 0;
+	
      list-style-type: none;
      border: 2px;
-     width: 450px;
+ 
 	 font-size: 14px;
-     text-align: center;
+     text-align: center;    
+	 float: right;
+	 height: 36px;
+     line-height: 36px;
 }
 .menu2 {
-	 position: relative;
-     left: 830px;
-	 top: -95px;
-     margin: 0;
-     padding: 0;
+	
      list-style-type: none;
      border: 2px;
-     width: 450px;
+   
 	 font-size: 14px;
      text-align: center;
-   
+     float: right;
+	 height: 36px;
+     line-height: 36px;
+	 padding-right: 20px;
 }
 hr.polosa-menu{
-	 position: relative;
-	 top: -34px;
-     left: 870px;
+	
 	 height: 30px;
      width: 0px;
      border-color: #4eabda;
-   	
+   	 float: right;
+     height: 34px;
+     line-height: 36px;
 }
 .flag {
-     position: relative;
-	 display: inline-block;
-	 padding-bottom: 22px;
-     text-decoration: none;
+ 
+	 margin-top: 5px;
      width: 29px;
-     height: 12px;
-     top: -63px;
-     left: 885px;
+    
 	 background: url(../img/flag.png) no-repeat;
+	 float: right;
+     height: 36px;
+     line-height: 36px;
+	 margin-left: 20px;
 }
 .menu  a {
      display: inline-block;
 	 text-decoration: none;
-	 height: 26px;
-     padding: 10px 10px 0px 10px;
+	 height: 36px;
+     padding: 0px 10px 0px 10px;
 	 color: #4eabda;
 }
-.menu2 a {
+
+.menu2  a{
 	 text-decoration: none;
 	 color: #ffffff;
 	 padding: 10px 10px 10px 10px;
+	 height: 36px;
+	
+}
+
+
+
+.menu2 a.s-podsvetkoi  {
+	 text-decoration: none;
+	 color: #ffffff;
+	 padding: 10px 10px 10px 10px;
+     height: 36px;
+	 outline: none;
+	 background: rgb(80,175,220) linear-gradient(rgb(80,175,220), rgb(46,122,196));
+     box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(46,122,196,-4);
+     transition: box-shadow .2s, border-color .2s;
+     box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(46,122,196,-4);
+	 	
 }
 li {
 	 height: 36px;
@@ -96,13 +113,6 @@ li {
 	
 }
 
-.menu2 a:hover {
-	 outline: none;
-	 background: rgb(80,175,220) linear-gradient(rgb(80,175,220), rgb(46,122,196));
-     box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(46,122,196,-4);
-     transition: box-shadow .2s, border-color .2s;
-     box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(46,122,196,-4);
-}
 h1 {
 	 margin-left: 190px;
 	 padding-top: 20px;
@@ -111,9 +121,10 @@ h1 {
 
  
 .fon {
-	 width:1215px;
-	 height: 1028px;
-	 background: url(../img/bacgraund.png) no-repeat;
+	    /* width: 1215px; */
+     height: 1028px;
+     background: url(../img/bacgraund.png) no-repeat;
+     background-size: cover;
 }
 .forma{
 	 padding-top: 200px;
@@ -139,7 +150,7 @@ hr.polosa-forma{
 	 position: relative;
      left: 25.5%;
 	 margin-top: 30px;
-/*	background: url(../img/f-text.png) no-repeat;*/
+
    
 }
 .fb:before {
@@ -147,8 +158,8 @@ hr.polosa-forma{
 	
 }
 .fb:after {
-        content: url(../img/strela.png);
-    margin-left: -4px;
+     content: url(../img/strela.png);
+     margin-left: -4px;
     
 }
 
