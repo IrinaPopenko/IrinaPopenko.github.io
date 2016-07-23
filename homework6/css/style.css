@@ -1,0 +1,442 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #C0C0C0;
+}
+
+.stranica {
+    width: 910px;
+    padding: 0 45px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+header {
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.fon {
+    width: 314px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: #5e696d;
+    padding-top: 3px;
+}
+
+.fon img {
+    float: left;
+    padding: 1px 3px 0 7px;
+}
+
+.avtorizaciya {
+    float: left;
+    width: 482px;
+    height: 24px;
+    padding: 2px 7px 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 11px;
+    color: #FFF;
+    background: linear-gradient(#1f6685, #0c3357);
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px #808080;
+}
+
+.avtorizaciya a {
+    padding-top: 7px;
+}
+
+.registracia, .vhod {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 11px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.vhod {
+    margin: 0 3px 0 4px;
+}
+
+.zabparol {
+    font-size: 12px;
+    color: #A0A0A4;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+#pas, #log {
+    float: left;
+    width: 107px;
+    height: 14px;
+    line-height: 15px;
+    font-size: 11px;
+    margin: 1px 3px 5px;
+    padding-left: 5px;
+}
+
+.avtorizaciya img {
+    float: left;
+    padding-top: 2px;
+}
+
+.dom_nav {
+    float: right;
+    border: 1px solid #A0A0A4;
+    border-radius: 15px;
+    padding: 0 10px;
+    margin-right: 7px;
+    box-shadow: 2px 2px 2px #c0c0c0;
+}
+
+.baner {
+    width: 910px;
+    height: 237px;
+    margin-top: 10px;
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px;
+    background: linear-gradient(#505860, #010101);
+    box-shadow: 2px 2px 3px #808080;
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    margin: 7px 0 2px;
+}
+
+nav a {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+	letter-spacing: 0.6px;
+    text-decoration: none;
+    color: #b1bcc0;
+    padding: 8px 13px 5px;
+}
+
+nav li:hover, nav li:active {
+    background: linear-gradient(#1f6787, #0c3357);
+    border-radius: 10px;
+}
+
+nav a:hover, nav a:active {
+    color: #FFFFFF;
+}
+
+.korzina img {
+    padding-top: 2px;
+}
+
+#korz_img {
+    margin-left: 40px;
+}
+
+.korzina p {
+    padding: 2px 0;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #b1bcc0;
+}
+
+.korzina p span {
+    color: #0d5a8f;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+.korzina:hover {
+    background: none;
+}
+
+.search {
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.search_auto {
+    width: 410px;
+    height: 135px;
+    float: left;
+    border: 1px solid #808080;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 2px 2px 3px #808080;
+}
+.search_tire {
+    width: 190px;
+    height: 135px;
+    float: left;
+    border: 1px solid #808080;
+    border-radius: 15px;
+    margin: 5px 10px;
+    box-shadow: 2px 2px 3px #808080;
+}
+
+.search_wheel {
+    width: 264px;
+    height: 135px;
+    float: left;
+    border: 1px solid #808080;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 2px 2px 3px #808080;
+}
+
+.conteiner {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.tovar {
+    float: left;
+    width: 180px;
+    margin-top: 2px;
+    padding-right: 10px;
+    color: #114165;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 13px;
+}
+
+.tovar img, .brend img {
+    float: left;
+    height: 22px;
+}
+
+.tovar p.zaglavie, .brend p.zaglavie {
+    border: 1px solid #949fa4;
+    padding: 2px 0 0 0;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 3px 0 15px;
+    box-shadow: 2px 2px 3px #808080;
+	letter-spacing: 0.9px;
+}
+
+.name {
+    border: 1px solid #949fa4;
+    padding-left: 3px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 0 5px;
+    width: 145px;
+}
+
+.name p {
+    padding-top: 3px;
+}
+
+.name img {
+    margin-right: 3px;
+    height: 25px;
+}
+
+.tovar ul {
+    list-style: none;
+}
+
+.tovar ul li ul {
+    font-size: 13px;
+    text-indent: -8px;
+    padding-left: 55px;
+    list-style: circle;
+    line-height: 24px;
+}
+
+.tovar a {
+    text-decoration: none;
+    color: #465961;
+}
+
+.tovar a:hover, .tovar a:active {
+    text-decoration: underline;
+    color: #0c3256;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.products {
+    float: left;
+    width: 525px;
+    height: 630px;
+    background: linear-gradient(#e5e7e8, #93a7b0);
+}
+
+.koleso {
+    float: left;
+    width: 140px;
+    text-align: center;
+    margin: 15px 4px 8px 24px;
+}
+
+.koleso a {
+    text-decoration: none;
+}
+
+.koleso a p:hover {
+    color: #009FFF;
+}
+
+.koleso a div:hover {
+    box-shadow: 0 0 5px #009FFF;
+}
+
+.brendname {
+    color: #206988;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.klas {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.kartinka {
+    width: 135px;
+    height: 125px;
+    padding-top: 5px;
+    background-color: #FFF;
+    border: 1px solid #A0A0A4;
+    border-radius: 10px;
+}
+
+.cena {
+    color: #114165;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.cena span {
+    font-size: 12px;
+}
+
+.brend {
+    float: left;
+    width: 180px;
+    color: #114165;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 13px;
+    padding-left: 12px;
+}
+
+.brend ul {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.brend ul li ul {
+    font-size: 13px;
+    padding-left: 10px;
+    list-style: none;
+    margin: 0;
+    line-height: 25px;
+}
+
+.brend .name {
+    width: 130px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+.brend label {
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    transform: scale(0.8, 0.8);
+}
+
+#brandWheels {
+    margin-top: 9px;
+    padding-left: 2px;
+    width: 133px;
+}
+
+#submit_brands {
+    border: none;
+    border-radius: 10px;
+    margin: 15px 25px;
+    width: 80px;
+    padding: 5px 0;
+    background: linear-gradient(#1f6787, #0c3357);
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    box-shadow: 2px 2px 3px #808080;
+}
+
+#submit_brands:hover {
+    box-shadow: 0 0 3px #1f6787;
+    cursor: pointer;
+}
+
+.logo {
+    clear: both;
+    overflow: hidden;
+    width: 680px;
+    padding: 33px 0 15px;
+    margin: 0 auto;
+}
+
+.logo li {
+    float: left;
+    list-style: none;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: #213a4d;
+}
+
+footer ul {
+    width: 325px;
+    padding-left: 5px;
+    margin: 10px auto;
+}
+
+.kont a {
+    border: none;
+}
+
+.copyr {
+    clear: both;
+    width: 160px;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: #7f4740;
+    font-size: 10px;
+}
+
+footer a {
+    color: #bec6c9;
+    font-size: 12px;
+    text-decoration: none;
+    border-right: 1px solid #bec6c9;
+    padding: 0 13px;
+}
+
+footer a:hover {
+    color: #52abcb;
+}
+
+footer li {
+    float: left;
+    list-style: none;
+}
