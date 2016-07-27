@@ -1,0 +1,204 @@
+﻿@media (max-width: 959px) {
+
+    header {
+        height: 737px;
+ }
+
+    .top {
+        max-width: 768px;
+        margin: 0 auto;
+ }
+
+    .name {
+        width: 100%;
+ }
+
+    .menu {
+        width: 100%;
+        clear: left;
+        float: left;
+ }
+
+    .menu__item {
+        padding: 21px 52px 0 0;
+ }
+
+    .slider {
+        min-height: 400px;
+        margin-top: 182px;
+ }
+
+    .slider_div {
+        max-width: 768px;
+ }
+
+    .lorem {
+        width: 270px;
+        height: 192px;
+        margin: 94px 0 94px 28px;
+        overflow: hidden;
+ }
+
+    .lorem_h2 {
+        font-size: 47px;
+        line-height: 60px;
+ }
+
+    .lorem_h3 {
+        display: block;
+        overflow: hidden;
+        font-size: 24px;
+        height: 32px;
+ }
+
+    .phon {
+        margin-right: 43px;
+        margin-top: -22px;
+ }
+
+    .slider_link_left {
+        left: -12px;
+ }
+
+    .slider_link_right {
+        right: 1px;
+ }
+
+    .circl_links {
+        bottom: -60px;
+        left: 70%;
+ }
+
+    .aboutCompany {
+        max-width: 768px;
+ }
+
+    .about {
+        width: 29%;
+ }
+
+    .about-centr {
+        
+ }
+
+    .about-right {
+        padding-right: 0px;
+ }
+
+    .about div {
+        margin: 6px 14px;
+ }
+
+    .article_h3 {
+        font-size: 24px;
+ }
+
+    .about_p {
+        height: 145px;
+        overflow: hidden;
+ }
+
+    .about_link {
+        margin: 3px 10px 0 0;
+ }
+
+    .sectionBlog_div {
+        max-width: 768px;
+        padding-top: 100px;
+        overflow: hidden;
+ }
+
+    .startsHere {
+        width: 245px;
+        margin: 0 0 40px 30px;
+        padding-right: 30px;
+ }
+
+    .article_h3_pink {
+        display: block;
+ }
+
+    .blog_circl_links {
+        left: 113px;
+ }
+
+    .recentUpdates {
+        width: 340px;
+ }
+
+    .recentUpdates .article_h3 {
+        font-size: 30px;
+ }
+
+    .update_item {
+        height: 50px;
+        overflow: hidden;
+ }
+
+    .about_link-read_more {
+        display: none;
+ }
+
+    .about_link-more_blog {
+        display: block;
+ }
+
+    .logo_links {
+        max-width: 768px;
+ }
+
+    .logo_item {
+        margin: 0 26px;
+ }
+
+    .logo_item-head {
+        margin-left: 0;
+ }
+
+    .section_bottom_div {
+        max-width: 768px;
+        padding: 100px 0 95px;
+ }
+
+    .copy {
+        margin: 6px 0;
+ }
+
+    .about_p-gray {
+        height: 170px;
+ }
+
+    .pingbuller {
+        width: 29%;
+        height: 200px;
+        overflow: hidden;
+        margin-right: 49px;
+ }
+
+    .recent_comments {
+        width: 29%;
+        margin-right: 41px;
+ }
+
+    .news_catigories {
+        width: 29%;
+ }
+
+    footer {
+        height: 201px;
+        background-image: url(../img/footerFon_768.jpg);
+ }
+
+    .footer_div {
+        max-width: 768px;
+        padding-top: 44px;
+ }
+
+    .menu__item-footer {
+        padding: 0 43px 0 0;
+ }
+
+   /* .designed {
+        margin: 25px 18px;
+ }*/
+}
