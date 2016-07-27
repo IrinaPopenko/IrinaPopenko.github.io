@@ -96,9 +96,21 @@ header {
 .baner {
     width: 910px;
     height: 237px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
+	margin-top: 30px;
+	 background-color: white;
+    background-image: url('/img/banner.png');
+	
 }
-
+.logotip{
+	width: 267px;
+    height: 122px;
+	 background-color: white;
+	    background: url('/img/logo.png')no-repeat;
+	    position: relative;
+    top: 50px;
+    left: 2.5px;	
+}
 nav {
     overflow: hidden;
     width: 100%;
@@ -106,7 +118,9 @@ nav {
     background: linear-gradient(#505860, #010101);
     box-shadow: 2px 2px 3px #808080;
 }
-
+.conteiner-dlia-menu{
+	    padding-top: 5px;
+}
 nav li {
     list-style: none;
     float: right;
@@ -219,7 +233,7 @@ nav a:hover, nav a:active {
     border-radius: 10px;
     margin: 3px 0 15px;
     box-shadow: 2px 2px 3px #808080;
-	letter-spacing: 0.9px;
+	letter-spacing: 0.2px;
 }
 
 .name {
@@ -327,7 +341,7 @@ nav a:hover, nav a:active {
 .brend {
     float: left;
     width: 180px;
-    color: #114165;
+    color: #0c3256;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 13px;
     padding-left: 12px;
