@@ -28,7 +28,7 @@
         margin-top: 182px;
  }
 
-    .slider_div {
+    .slider__div {
         max-width: 768px;
  }
 
@@ -39,12 +39,12 @@
         overflow: hidden;
  }
 
-    .lorem_h2 {
+    .lorem__h2 {
         font-size: 47px;
         line-height: 60px;
  }
 
-    .lorem_h3 {
+    .lorem__h3 {
         display: block;
         overflow: hidden;
         font-size: 24px;
@@ -56,56 +56,84 @@
         margin-top: -22px;
  }
 
-    .slider_link_left {
+    .slider__link--left {
         left: -12px;
  }
 
-    .slider_link_right {
+    .slider__link--right {
         right: 1px;
  }
 
-    .circl_links {
+    .circl {
         bottom: -60px;
         left: 70%;
  }
 
-    .aboutCompany {
+    .sectionAbout__aboutCompany {
         max-width: 768px;
  }
 
     .about {
         width: 29%;
  }
-
-    .about-centr {
-        
+.aboutcentr {
+        width: 29%;
  }
+   /* .about--centr {
+        
+ }*/
 
-    .about-right {
+ .aboutright {
+	  width: 29%;
         padding-right: 0px;
  }
+    /*.about--right {
+        padding-right: 0px;
+ }*/
 
     .about div {
         margin: 6px 14px;
  }
 
-    .article_h3 {
+    .about__h3 {
+        font-size: 24px;
+ }
+ .aboutcentr__h3 {
+        font-size: 24px;
+ }
+ .aboutright__h3 {
         font-size: 24px;
  }
 
-    .about_p {
+    .about__p {
         height: 145px;
         overflow: hidden;
  }
 
-    .about_link {
+    .about__link {
         margin: 3px 10px 0 0;
  }
+     .aboutcentr__p {
+        height: 145px;
+        overflow: hidden;
+ }
 
-    .sectionBlog_div {
+    .aboutcentr__link {
+        margin: 3px 10px 0 0;
+ }
+  .aboutright__p {
+        height: 145px;
+        overflow: hidden;
+ }
+
+    .aboutright__link {
+        margin: 3px 10px 0 0;
+ }
+    .sectionBlog__div {
         max-width: 768px;
         padding-top: 100px;
         overflow: hidden;
+	
  }
 
     .startsHere {
@@ -113,12 +141,15 @@
         margin: 0 0 40px 30px;
         padding-right: 30px;
  }
-
-    .article_h3_pink {
+  .startsHere__p {
+       height: 145px;
+    overflow: hidden;
+ }
+    .startsHere__h3pink{
         display: block;
  }
 
-    .blog_circl_links {
+    .blog-circl{
         left: 113px;
  }
 
@@ -126,45 +157,52 @@
         width: 340px;
  }
 
-    .recentUpdates .article_h3 {
+    .recentUpdates__h3 {
         font-size: 30px;
  }
 
-    .update_item {
+    .update__item {
         height: 50px;
         overflow: hidden;
  }
-
-    .about_link-read_more {
+.update__p {
+        height: 145px;
+        overflow: hidden;
+ }
+    .recentUpdates__link--read_more {
         display: none;
  }
 
-    .about_link-more_blog {
+    .recentUpdates__link--more_blog {
         display: block;
+		float: right;
+    text-decoration: none;
+    font-family: "League Gothic", Verdana, Geneva, sans-serif;
+    font-size: 18px;
  }
 
     .logo_links {
         max-width: 768px;
  }
 
-    .logo_item {
+    .logos__item {
         margin: 0 26px;
  }
 
-    .logo_item-head {
+    .logos__item--head {
         margin-left: 0;
  }
 
-    .section_bottom_div {
+    .section_bottom__div {
         max-width: 768px;
         padding: 100px 0 95px;
  }
 
-    .copy {
+    .pingbuller__copy {
         margin: 6px 0;
  }
 
-    .about_p-gray {
+    .pingbuller__p {
         height: 170px;
  }
 
@@ -175,11 +213,13 @@
         margin-right: 49px;
  }
 
-    .recent_comments {
+    .recent-comments {
         width: 29%;
         margin-right: 41px;
  }
-
+.recent-comments{
+    height: 170px;    overflow: hidden;
+}
     .news_catigories {
         width: 29%;
  }
@@ -194,11 +234,32 @@
         padding-top: 44px;
  }
 
-    .menu__item-footer {
+    .menu__item--footer {
         padding: 0 43px 0 0;
  }
 
    /* .designed {
         margin: 25px 18px;
  }*/
+ 
+ .recent-comments__h3 {
+    color: #454545;
+    margin-left: 0;
+    text-shadow: none;
+ 
+    font-family: "League Gothic", Verdana, Geneva, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    
+}
+.news-catigories__h3{
+	 color: #454545;
+    margin-left: 0;
+    text-shadow: none;
+ 
+    font-family: "League Gothic", Verdana, Geneva, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+}
+ 
 }
