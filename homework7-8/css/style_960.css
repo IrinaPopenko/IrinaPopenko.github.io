@@ -1,0 +1,265 @@
+﻿@media (max-width: 959px) {
+
+    header {
+        height: 737px;
+ }
+
+    .top {
+        max-width: 768px;
+        margin: 0 auto;
+ }
+
+    .name {
+        width: 100%;
+ }
+
+    .menu {
+        width: 100%;
+        clear: left;
+        float: left;
+ }
+
+    .menu__item {
+        padding: 21px 52px 0 0;
+ }
+
+    .slider {
+        min-height: 400px;
+        margin-top: 182px;
+ }
+
+    .slider__div {
+        max-width: 768px;
+ }
+
+    .lorem {
+        width: 270px;
+        height: 192px;
+        margin: 94px 0 94px 28px;
+        overflow: hidden;
+ }
+
+    .lorem__h2 {
+        font-size: 47px;
+        line-height: 60px;
+ }
+
+    .lorem__h3 {
+        display: block;
+        overflow: hidden;
+        font-size: 24px;
+        height: 32px;
+ }
+
+    .phon {
+        margin-right: 43px;
+        margin-top: -22px;
+ }
+
+    .slider__link--left {
+        left: -12px;
+ }
+
+    .slider__link--right {
+        right: 1px;
+ }
+
+    .circl {
+        bottom: -60px;
+        left: 70%;
+ }
+
+    .sectionAbout__aboutCompany {
+        max-width: 768px;
+ }
+
+    .about {
+        width: 29%;
+ }
+.aboutcentr {
+        width: 29%;
+ }
+   /* .about--centr {
+        
+ }*/
+
+ .aboutright {
+	  width: 29%;
+        padding-right: 0px;
+ }
+    /*.about--right {
+        padding-right: 0px;
+ }*/
+
+    .about div {
+        margin: 6px 14px;
+ }
+
+    .about__h3 {
+        font-size: 24px;
+ }
+ .aboutcentr__h3 {
+        font-size: 24px;
+ }
+ .aboutright__h3 {
+        font-size: 24px;
+ }
+
+    .about__p {
+        height: 145px;
+        overflow: hidden;
+ }
+
+    .about__link {
+        margin: 3px 10px 0 0;
+ }
+     .aboutcentr__p {
+        height: 145px;
+        overflow: hidden;
+ }
+
+    .aboutcentr__link {
+        margin: 3px 10px 0 0;
+ }
+  .aboutright__p {
+        height: 145px;
+        overflow: hidden;
+ }
+
+    .aboutright__link {
+        margin: 3px 10px 0 0;
+ }
+    .sectionBlog__div {
+        max-width: 768px;
+        padding-top: 100px;
+        overflow: hidden;
+	
+ }
+
+    .startsHere {
+        width: 245px;
+        margin: 0 0 40px 30px;
+        padding-right: 30px;
+ }
+  .startsHere__p {
+       height: 145px;
+    overflow: hidden;
+ }
+    .startsHere__h3pink{
+        display: block;
+ }
+
+    .blog-circl{
+        left: 113px;
+ }
+
+    .recentUpdates {
+        width: 340px;
+ }
+
+    .recentUpdates__h3 {
+        font-size: 30px;
+ }
+
+    .update__item {
+        height: 50px;
+        overflow: hidden;
+ }
+.update__p {
+        height: 145px;
+        overflow: hidden;
+ }
+    .recentUpdates__link--read_more {
+        display: none;
+ }
+
+    .recentUpdates__link--more_blog {
+        display: block;
+		float: right;
+    text-decoration: none;
+    font-family: "League Gothic", Verdana, Geneva, sans-serif;
+    font-size: 18px;
+ }
+
+    .logo_links {
+        max-width: 768px;
+ }
+
+    .logos__item {
+        margin: 0 26px;
+ }
+
+    .logos__item--head {
+        margin-left: 0;
+ }
+
+    .section_bottom__div {
+        max-width: 768px;
+        padding: 100px 0 95px;
+ }
+
+    .pingbuller__copy {
+        margin: 6px 0;
+ }
+
+    .pingbuller__p {
+        height: 170px;
+ }
+
+    .pingbuller {
+        width: 29%;
+        height: 200px;
+        overflow: hidden;
+        margin-right: 49px;
+ }
+
+    .recent-comments {
+        width: 29%;
+        margin-right: 41px;
+ }
+.recent-comments{
+    height: 170px;    overflow: hidden;
+}
+    .news_catigories {
+        width: 29%;
+ }
+
+    footer {
+        height: 201px;
+        background-image: url(../img/footerFon_768.jpg);
+ }
+
+    .footer_div {
+        max-width: 768px;
+        padding-top: 44px;
+ }
+
+    .menu__item--footer {
+        padding: 0 43px 0 0;
+ }
+
+   /* .designed {
+        margin: 25px 18px;
+ }*/
+ 
+ .recent-comments__h3 {
+    color: #454545;
+    margin-left: 0;
+    text-shadow: none;
+ 
+    font-family: "League Gothic", Verdana, Geneva, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    
+}
+.news-catigories__h3{
+	 color: #454545;
+    margin-left: 0;
+    text-shadow: none;
+ 
+    font-family: "League Gothic", Verdana, Geneva, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+}
+ 
+}
