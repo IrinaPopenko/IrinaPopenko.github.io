@@ -1,0 +1,15 @@
+﻿@media (max-width: 319px) {
+	
+	
+   .aboutcentr__icon2 {
+    background-position: 0 0;
+ }
+
+.aboutright__icon3 {
+    background-position: 0 0;
+ }
+     .phon {
+        display: none;
+ } 
+
+}

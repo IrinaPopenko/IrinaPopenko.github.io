@@ -1,0 +1,172 @@
+﻿@media (max-width: 481px) {
+	 header {
+        height: 786px;
+ }
+.phon {
+    margin-right: 30px;
+    margin-top: -300px;
+    width: 192px;
+}	
+.recentUpdates {
+    width: 340px;
+    margin: 19px auto 0;
+    float: none;
+}
+}
+@media (max-width: 479px) {
+
+    header {
+        height: 455px;
+ }
+
+    .top {
+        width: 320px;
+ }
+
+    .slider {
+        background: none;
+ }
+
+    .slider__div {
+        width: 320px;
+ }
+
+    .lorem {
+        margin-left: 63px;
+ }
+
+    .lorem__h2 {
+        font-size: 37px;
+        line-height: 30px;
+ }
+
+
+  .phon {
+        display: none;
+ } 
+
+    .circl {
+        bottom: -6px;
+        left: 121px;
+ }
+
+    .sectionAbout__aboutCompany {
+        max-width: 320px;
+        padding-top: 65px;
+ }
+ .about {
+        width: 94%;
+        
+ }
+ .aboutcentr {
+ width: 94%;
+ }
+    .aboutright {
+        padding-top: 14px;
+		width: 94%;
+ }
+
+    .about__p {
+        height: 75px;
+ }
+
+    .about__link {
+        margin: 6px 18px 0 0;
+ }
+
+    .sectionBlog_div {
+        max-width: 320px;
+ }
+
+    .startsHere {
+        width: 190px;
+        margin: 0 0 40px 43px;
+        padding-top: 24px;
+		margin: 0 auto;
+		float: none;
+ }
+
+    .startsHere:after {
+        display: none;
+ }
+
+    .startsHere__p {
+        font-size: 24px;
+        line-height: 24px;
+		font-family: "Open Sans light", Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: inherit;
+ }
+
+    .startsHere__h3pink {
+        display: block;
+ }
+
+    .blog-circl {
+        left: 85px;
+ }
+
+    .recentUpdates {
+        width: 290px;
+        overflow: hidden;
+        margin: 19px 0 59px -17px;
+ }
+.recentUpdates {
+    width: 340px;
+    margin: 19px auto 0;
+    float: none;
+}
+    .update__h5 {
+        display: block;
+        width: 160px;
+        height: 23px;
+        overflow: hidden;
+		display: block;
+
+    
+ }
+
+    .update__p {
+        width: 220px;
+		 height: 75px;
+ }
+
+    .recentUpdates__link--more_blog{
+        margin: -2px 15px 0 0;
+ }
+
+    .logo_links {
+        width: 320px;
+        padding: 30px 0;
+ }
+
+    .logos__item {
+        margin: 23px 25px;
+ }
+
+    .section_bottom {
+        display: none;
+ }
+
+    .footer_div {
+        width: 320px;
+ }
+
+    .menu--footer {
+        display: none;
+ }
+
+    .designed {
+        margin-top: 0px;
+ }
+
+     .about__icon2 {
+    background-position: 0 0;
+ }
+
+     .about__icon3 {
+    background-position: 0 0;
+ }
+
+}
