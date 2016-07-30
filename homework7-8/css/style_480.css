@@ -94,14 +94,14 @@
         margin: 19px 0 59px -17px;
  }
 
-    .update_h5 {
+    .update__h5 {
         display: block;
         width: 160px;
         height: 23px;
         overflow: hidden;
  }
 
-    .update_p {
+    .update__p {
         width: 220px;
 		 height: 75px;
  }
@@ -135,11 +135,11 @@
         margin-top: 0px;
  }
 
-     .about_icon2 {
+     .about__icon2 {
     background-position: 0 0;
  }
 
-     .about_icon3 {
+     .about__icon3 {
     background-position: 0 0;
  }
 
